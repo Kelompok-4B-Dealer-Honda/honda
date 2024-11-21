@@ -50,9 +50,9 @@ Folder images: Berisi gambar-gambar yang digunakan dalam aplikasi.
 File .fxml: File antarmuka pengguna yang digunakan oleh JavaFX untuk mendesain tampilan GUI.
 styles.css: Berisi styling untuk antarmuka aplikasi.
 
-![image](https://github.com/user-attachments/assets/ce6324f6-cb57-4bff-be49-5026fea57151)
-![image](https://github.com/user-attachments/assets/0bce3d71-0093-4214-a4ae-986fcce15658)
+![WhatsApp Image 2024-11-21 at 23 05 24_11aea7b7](https://github.com/user-attachments/assets/e94c6457-21d0-42ce-9777-1af73a262fa7)
 
+![WhatsApp Image 2024-11-21 at 23 05 25_2ae8636a](https://github.com/user-attachments/assets/76a7028b-1092-4a54-98fa-1f6d38854cef)
 
 ### Cara Pengguanaan
 
