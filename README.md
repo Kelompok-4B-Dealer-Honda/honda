@@ -19,6 +19,7 @@ Fitur Aplikasi
 - Servis fee
 
 ### Flowchart
+![honda_armata](https://github.com/user-attachments/assets/d7ac195c-cf55-4cce-987e-86ec79dc6e49)
 
 ### ERD
 - Logical
