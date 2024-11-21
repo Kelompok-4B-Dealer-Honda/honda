@@ -22,7 +22,10 @@ Fitur Aplikasi
 
 ### ERD
 - Logical
+  ![WhatsApp Image 2024-11-21 at 22 59 08_cbe0f339](https://github.com/user-attachments/assets/495361f0-4ae7-402b-8260-b61d43c71bcd)
+
 - Relational
+  ![WhatsApp Image 2024-11-21 at 22 59 31_7279c860](https://github.com/user-attachments/assets/b15d9e98-6444-430a-8730-67e0c2546e06)
 
 ### Activity Diagram
 ![pa_honda 1](https://github.com/user-attachments/assets/dbe8caec-b639-47b1-bbe9-cf52c085139b)
@@ -31,8 +34,25 @@ Fitur Aplikasi
 ![WhatsApp Image 2024-11-21 at 17 30 08_8ed3924c](https://github.com/user-attachments/assets/d5440a3d-5566-4be2-b046-44d547af54c8)
 
 ### Struktur Project
+1. Package com.hondaamartha
+App: Entry point dari aplikasi (main class).
+CarDetailsController, CarsController, HomeController, dll.: Kelas-kelas controller untuk mengelola logika dan interaksi antar bagian aplikasi.
+Database: Kemungkinan berisi logika atau koneksi ke database.
+NavbarController: Mengatur navigasi di dalam aplikasi.
+2. Package com.hondaamartha.car
+Category, Hatchback, SUV, Sedan: Representasi berbagai kategori mobil, kemungkinan model untuk data mobil.
+3. Package com.hondaamartha.model
+Berisi entitas utama:
+Admin, Member, Mobil, TestDrive, dll.: Representasi data untuk fitur seperti pengguna, mobil, test drive, dll.
+CreditSimulation, ServiceFee: Terkait perhitungan atau fitur keuangan.
+4. Folder src/main/resources
+Folder images: Berisi gambar-gambar yang digunakan dalam aplikasi.
+File .fxml: File antarmuka pengguna yang digunakan oleh JavaFX untuk mendesain tampilan GUI.
+styles.css: Berisi styling untuk antarmuka aplikasi.
+
 ![image](https://github.com/user-attachments/assets/ce6324f6-cb57-4bff-be49-5026fea57151)
 ![image](https://github.com/user-attachments/assets/0bce3d71-0093-4214-a4ae-986fcce15658)
+
 
 ### Cara Pengguanaan
 
