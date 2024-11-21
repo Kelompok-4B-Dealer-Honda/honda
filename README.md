@@ -1,6 +1,40 @@
-# honda
+# Project Akhir Pemprograman Berorientasi Objek
+## Nama Kelompok
+1. Reisya Nurfaris Dzakwan Alamsyah	2309116102
+2. Vincenz Reynard Citro	2309116080
+3. Hiskya Harsyal Kila	2309116089
+4. Mohammed Noeno Hadianto	2309116081
 
-# Cara Pengguanaan
+## Honda
+
+### Deskripsi Program
+Website Honda merupakan sebuah website yang berfungsi sebagai katalog dimana admin dapat menambahkan, mengubah dan menghapus data mobil, jadwal test-drive dan user dapat melihat berbagai informasi, gambar dan deskripsi mengenai produk mobil honda. Tidak hanya sebagai katalog saja website ini juga memberikan beberapa fitur untuk memudahkan user seperti fitur simulasi kredit agar user dapat mengetahui besaran bunga, penjadwalan test-drive agar memudahkan user untuk dapat melakukan test-drive mobil honda dan fitur yang tidak kalah penting yaitu fitur servis fee agar user mengetahui besaran harga maintenence mobil honda.
+
+Fitur Aplikasi 
+- Login
+- Menu edit produk
+- Menu Awal
+- Simulasi Kredit
+- Daftar test-drive
+- Servis fee
+
+### Flowchart
+
+### ERD
+- Logical
+- Relational
+
+### Activity Diagram
+![pa_honda 1](https://github.com/user-attachments/assets/dbe8caec-b639-47b1-bbe9-cf52c085139b)
+
+### Use Case Diagram
+![WhatsApp Image 2024-11-21 at 17 30 08_8ed3924c](https://github.com/user-attachments/assets/d5440a3d-5566-4be2-b046-44d547af54c8)
+
+### Struktur Project
+![image](https://github.com/user-attachments/assets/ce6324f6-cb57-4bff-be49-5026fea57151)
+![image](https://github.com/user-attachments/assets/0bce3d71-0093-4214-a4ae-986fcce15658)
+
+### Cara Pengguanaan
 
 USER 
 
