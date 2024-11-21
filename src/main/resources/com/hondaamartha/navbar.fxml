@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.control.Button?>
+
+<HBox fx:controller="com.hondaamartha.NavbarController" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" alignment="CENTER" spacing="20" styleClass="navbar">
+    <children>
+        <Region styleClass="logo" />
+        <Region HBox.hgrow="ALWAYS"/>
+
+        <HBox spacing="10" alignment="CENTER">
+            <children>
+                <Button fx:id="homeButton"  text="Beranda" styleClass="nav-button" onAction="#homeButton"/>
+                <Button fx:id="productButton" text="Produk" styleClass="nav-button" onAction="#productButton"/>
+                <Button fx:id="logoutButton" text="Keluar" styleClass="nav-button" onAction="#logoutButton"/>
+            </children>
+        </HBox>
+    </children>
+</HBox>

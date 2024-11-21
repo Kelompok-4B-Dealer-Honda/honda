@@ -1,0 +1,231 @@
+
+.main-container {
+    -fx-background-color: #f5f5f5;
+}
+
+ .root {
+    -fx-font-size: 14px;
+    -fx-font-family: "Verdana";
+    -fx-background-color: #f5f5f5;
+    -fx-padding: 20;
+}
+
+
+
+
+.navbar {
+    -fx-padding: 10;
+    -fx-background-color: white;
+    -fx-border-color: lightgrey;
+    -fx-border-width: 0 0 1 0;
+    -fx-alignment: center;
+    -fx-spacing: 20;
+}
+
+.logo {
+    -fx-min-width: 50px;
+    -fx-min-height: 50px;
+    -fx-background-image: url('images/logo.png'); 
+    -fx-background-size: contain;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.nav-button {
+    -fx-font-size: 14px;
+    -fx-text-fill: black;
+    -fx-background-color: transparent;
+    -fx-border-radius: 5;
+}
+
+.nav-button:hover {
+    -fx-text-fill: red;
+}
+
+.nav-button-selected{
+    -fx-background-color: #d10000;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+    -fx-padding: 8 15;
+}
+.nav-button-selected:hover {
+    -fx-background-color: #a40000;
+}
+
+
+/* .selected {
+    -fx-text-fill: white;
+    -fx-background-color: red;
+    -fx-border-radius: 5;
+} */
+
+.banner {
+    -fx-fit-width: 200;
+    -fx-fit-height: 0;
+}
+
+
+
+
+
+.login-panel {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 20px;
+    -fx-padding: 40px;
+    -fx-alignment: CENTER;
+    -fx-pref-width: 100px;
+    -fx-spacing: 20px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 10, 0, 0, 4);
+}
+
+.header-1 {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+.instruction-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #666666;
+}
+
+.input-label {
+    -fx-padding: 5px;
+    -fx-font-size: 14px;
+}
+
+.input-field {
+    -fx-pref-height: 55px;
+    -fx-background-radius: 5px;
+    -fx-border-color: #CCCCCC;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+    -fx-font-size: 14px;
+}
+
+.login-button {
+    -fx-background-color: #CC0000;
+    -fx-text-fill: #FFFFFF;
+    -fx-pref-width: 720px;
+    -fx-pref-height: 55px;
+    -fx-background-radius: 5px;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 5px;
+}
+
+.login-button:hover {
+    -fx-background-color: #B20000;
+}
+
+
+
+
+
+
+
+.scroll-pane {
+    -fx-border-color: transparent;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.main-content {
+    -fx-padding: 20;
+    -fx-background-color: #ffffff;
+    -fx-border-color: lightgrey;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.car-item {
+    -fx-border-width: 1;
+    -fx-border-color: #ddd;
+    -fx-padding: 10;
+}
+
+.car-title {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.red-button {
+    -fx-font-size: 14px;
+    -fx-background-color: #d10000;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+    -fx-padding: 8 15;
+}
+.red-button:hover {
+    -fx-background-color: #a40000;
+}
+
+.white-button {
+    -fx-font-size: 14px;
+    -fx-background-color: transparent;
+    -fx-border-color: #000000;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-padding: 10 20;
+}
+.white-button:hover {
+    -fx-font-size: 14px;
+    -fx-background-color: #bbbbbb;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+
+.price-button {
+    -fx-background-color: transparent;
+    -fx-border-color: #000000;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-padding: 10 20;
+}
+
+.price-button:hover {
+    -fx-background-color: #bbbbbb;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+
+.price-label {
+    -fx-font-size: 10px;
+    -fx-text-fill: #666;
+}
+
+.price-value {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+.type-price-button {
+    -fx-font-size: 14px;
+    -fx-background-color: #d10000;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+    -fx-padding: 8 15;
+}
+
+
+
+.pencil-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #555;
+    -fx-font-size: 14px;
+}
+
+.selected-car-box {
+    -fx-border-color: #4285f4;
+    -fx-border-width: 2;
+}
+/*
+.main-content-label {
+    -fx-font-size: 18px;
+    -fx-text-fill: #333333;
+} */

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.textfield.*?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.collections.FXCollections?>
+
+<VBox  fx:controller="com.hondaamartha.CarsController" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" spacing="10" styleClass="main-container">
+    <fx:include source="navbar.fxml"/>
+    <!-- <HBox fx:id="categories" alignment="CENTER" spacing="20" styleClass="navbar">
+        <children>
+            <Region HBox.hgrow="ALWAYS"/>
+
+            <HBox spacing="10" alignment="CENTER">
+                <children>
+                    <Button text="All" styleClass="nav-button-selected"/>
+                    <Button text="anu" styleClass="nav-button"/>
+                    <Button text="hehe" styleClass="nav-button"/>
+                    <Button text="apa" styleClass="nav-button"/>
+                </children>
+            </HBox>
+        </children>
+    </HBox> -->
+
+    <HBox spacing="10" alignment="CENTER">
+        <!-- <VBox fx:id="productMenuContainer" spacing="10" styleClass="menu-container" prefWidth="300">
+            <children>
+                <Label text="Car Management" styleClass="menu-title"/>
+                
+                <TextField fx:id="modelNameField" promptText="Nama Model" />
+                <TextField fx:id="carTypeField" promptText="Tipe" />
+                <TextField fx:id="transmissionField" promptText="Transmission" />
+                <TextField fx:id="priceField" promptText="Price" />
+                <TextField fx:id="typeField" promptText="Kategori" />
+                <TextField fx:id="colorField" promptText="Warna" />
+                <TextArea fx:id="featureField" promptText="Features" wrapText="true"/>
+
+                <Button text="Add"  styleClass="menu-button"/>
+                <Button text="Edit" styleClass="menu-button"/>
+                <Button text="Delete"  styleClass="menu-button"/>
+            </children>
+        </VBox> -->
+        <VBox fx:id="productMenuContainer" spacing="10" styleClass="menu-container" minWidth="300" maxWidth="300">
+            <children>
+                <VBox spacing="10" >
+                    <Button fx:id="manageTestDriveButton"  text="Test Drive" onAction="#manageTestDriveButton"/>
+                    <HBox spacing="10" alignment="CENTER">
+                        <Button text="Go to Add Page" fx:id="addPageButton" onAction="#showAddModelPage" />
+                        <Button text="Go to Update Page" fx:id="updatePageButton" onAction="#showUpdateModelPage" />
+                    </HBox>
+                </VBox>
+                
+                <VBox fx:id="addModelPageContainer" spacing="10" styleClass="menu-container" visible="true" managed="true">
+                    <children>
+                        <Label text="Inisialisasi Model dan Tipe Baru" styleClass="menu-title"/>
+                        
+                        <TextField fx:id="modelNameField" promptText="Nama Model" />
+                        <TextField fx:id="typeField" promptText="Tipe" />
+                        <TextField fx:id="transmissionField" promptText="Transmisi" />
+                        <TextField fx:id="priceField" promptText="Harga" />
+                        <ComboBox fx:id="carTypeField" promptText="Kategori"/>
+                        <!-- <TextField fx:id="colorField" promptText="Warna" /> -->
+                        <TextField fx:id="featureField" promptText="Fitur" />
+                        
+                        <Button text="Add" onAction="#addModel" styleClass="menu-button"/>
+                        
+                    </children>
+                </VBox>
+
+                <VBox fx:id="updateModelPageContainer" spacing="10" styleClass="menu-container" visible="false" managed="false">
+                    <children>
+                        <Label text="Car Management - Update Model" styleClass="menu-title"/>
+                        
+                        <TextField fx:id="modelNameFieldUpdate" promptText="Nama Model" />
+
+                        <Button fx:id="uploadIModelImageButton" text="Upload Image" onAction="#uploadModelImage" />
+                        <ImageView fx:id="modelImageView" fitWidth="200" fitHeight="120" />
+                        
+                        <Button onAction="#updateModel" text="Update" />
+                        <Button text="Delete" onAction="#deleteModel" styleClass="menu-button" />
+                    </children>
+                </VBox>
+            </children>
+        </VBox>
+
+
+        <VBox fx:id="carTypesMenuContainer" spacing="10" styleClass="menu-container" minWidth="300" maxWidth="300" minHeight="480" maxHeight="480" visible="false" managed="false">
+            <children>
+                <HBox spacing="10" alignment="CENTER" visible="false" managed="false">
+                    <Button text="Go to Add Page" fx:id="addPageButton" onAction="#showAddCarTypePage" />
+                    <Button text="Go to Update Page" fx:id="updatePageButton" onAction="#showUpdateCarTypePage" />
+                </HBox>
+                
+                <VBox fx:id="addCarTypePageContainer" spacing="10" styleClass="menu-container" visible="true" managed="true">
+                    <children>
+                        <Label text="manage Tipe Mobil" styleClass="menu-title"/>
+                        
+                        <TextField fx:id="carTypeNameField" promptText="Tipe" />
+                        <TextField fx:id="carTypeTransmissionField" promptText="Transmission" />
+                        <TextField fx:id="carTypePriceField" promptText="Price" />
+                        <TextField fx:id="carTypeFeatureField" promptText="Features" />
+                        
+                        <Button text="Add" onAction="#addCarType"  styleClass="menu-button"/>
+                        <Button text="Update" onAction="#updateCarType" styleClass="menu-button" />
+                        <Button text="Delete" onAction="#deleteCarType" styleClass="menu-button" />
+
+                        
+                    </children>
+                </VBox>
+            </children>
+        </VBox>
+
+
+        <ScrollPane HBox.hgrow="ALWAYS"  styleClass="scrollPane" fitToWidth="true">
+            <content>
+                <StackPane alignment="CENTER">
+                    <VBox fx:id="mainContainer" VBox.vgrow="ALWAYS" spacing="10" alignment="CENTER" minHeight="360">
+                        <!-- loadCarModels -->
+                    </VBox>
+                </StackPane>
+            </content>
+        </ScrollPane>
+    </HBox>
+    
+</VBox>
+

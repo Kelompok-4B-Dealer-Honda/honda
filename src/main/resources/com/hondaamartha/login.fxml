@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<BorderPane fx:id="borderPane" xmlns:fx="http://javafx.com/fxml" fx:controller="com.hondaamartha.LoginController">
+    <center>
+        <VBox spacing="15" styleClass="login-panel" maxWidth="720">
+            <VBox spacing="15" alignment="TOP_LEFT">
+                <ImageView fitWidth="100" preserveRatio="true">
+                    <image>
+                        <Image url="@./images/logo.png" />
+                    </image>
+                </ImageView>
+                <Label text="Selamat Datang" styleClass="header-1"/>
+                <Label text="Silahkan login" styleClass="instruction-label" style="-fx-padding:0 0 100 0;"/>
+            </VBox>
+
+            <VBox spacing="15" alignment="CENTER">
+                <TextField fx:id="usernameField" promptText="Username" styleClass="input-field"/>
+                <PasswordField fx:id="passwordField" promptText="Password" styleClass="input-field"/>
+                <Button text="Login" onAction="#loginButton" styleClass="login-button"/>
+                <Label fx:id="messageLabel"/>
+            </VBox>
+        </VBox>
+    </center>
+</BorderPane>

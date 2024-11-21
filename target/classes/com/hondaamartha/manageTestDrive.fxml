@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.textfield.*?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+
+<VBox fx:controller="com.hondaamartha.ManageTestDriveController" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" spacing="10" styleClass="main-container">
+    <fx:include fx:id="navbar" source="navbar.fxml"/>
+
+    <TableView fx:id="testDriveTable" prefHeight="400" >
+        <columns>
+            <TableColumn text="ID" fx:id="colId" prefWidth="200"/>
+            <TableColumn text="Nama" fx:id="colNamaCustomer" prefWidth="200"/>
+            <TableColumn text="Email" fx:id="colEmail" prefWidth="200"/>
+            <TableColumn text="No Hp" fx:id="colNoTelp" prefWidth="200"/>
+            <TableColumn text="Waktu" fx:id="colTanggalTestDrive" prefWidth="200"/>
+            <TableColumn text="Model" fx:id="colModelMobil" prefWidth="200"/>
+            <TableColumn text="" fx:id="colDelete" prefWidth="100"/>
+        </columns>
+    </TableView>
+</VBox>
