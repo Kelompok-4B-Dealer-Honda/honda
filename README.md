@@ -94,7 +94,7 @@ Setelah berhasil login maka admin akan masuk ke tampilan awal yaitu menu beranda
 ![WhatsApp Image 2024-11-21 at 20 13 59_6fa59ec7](https://github.com/user-attachments/assets/fbf353fc-a9c5-49a4-9b2c-8b4fca5fc740)
 
 Agar dapat melakukan crud admin perlu untuk mengakses menu awal dengan menekan tombol produk
-![image](https://github.com/user-attachments/assets/0333aeaa-5378-497a-8ab8-70fcc508199f)
+![WhatsApp Image 2024-11-21 at 23 08 08_7f6398da](https://github.com/user-attachments/assets/8ff29319-579d-4850-b0ce-8e4fe0b9247a)
 
 Admin dapat menambahkan, mengubah dan menghapus data mobil melalui manage tipe mobil 
 ![WhatsApp Image 2024-11-21 at 20 35 54_fa29f35e](https://github.com/user-attachments/assets/f9ab6d6d-deea-4c6c-adf1-57ba523fc844)
